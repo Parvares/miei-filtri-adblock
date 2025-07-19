@@ -1,0 +1,9 @@
+[Adblock Plus 2.0]
+! Title: Filtri Personalizzati Italiani
+! Description: Filtri per popup e annoyances italiani
+! Version: 1.0
+! Last modified: 19 luglio 2025
+
+! Blocca popup Linkiesta
+linkiesta.it##div.popover.subscriber
+linkiesta.it##div[id="popover"].animate__animated.animate__slideInUp.popover.subscriber
