@@ -1,12 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Filtri Personalizzati Italiani
 ! Description: Filtri per popup e annoyances italiani
-! Version: 1.1
+! Version: 1.2
 ! Last modified: 19 luglio 2025
 
 ! Blocca popup Linkiesta
 linkiesta.it##div.popover.subscriber
 linkiesta.it##div[id="popover"].animate__animated.animate__slideInUp.popover.subscriber
+linkiesta.it##.popover.subscriber
 
 ! Filtri banner Linkiesta (compatibili ABP)
 linkiesta.it##.banner-top
@@ -14,5 +15,11 @@ linkiesta.it##.lkadv
 linkiesta.it###adwallpaper
 linkiesta.it###bh_flexible
 
-! Rimuove padding del body (sintassi ABP alternativa)
-linkiesta.it##body[style*="padding-top"]:style(padding-top: 0px !important)
+! Filtri aggiuntivi per elementi che causano padding/margini
+linkiesta.it##.sticky-banner
+linkiesta.it##.header-banner
+linkiesta.it##.top-banner
+linkiesta.it##.site-header.sticky
+
+! Filtro CSS per rimuovere padding (sintassi ABP base)
+linkiesta.it##body:style(padding-top: 0px !important; margin-top: 0px !important)
