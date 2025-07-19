@@ -1,21 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Filtri Personalizzati Italiani
 ! Description: Filtri per popup e annoyances italiani
-! Version: 1.4
+! Version: 1.0
 ! Last modified: 19 luglio 2025
 
-! Blocca tutti gli elementi del banner dinamico
-linkiesta.it##.banner-top
-linkiesta.it##.banner-top > *
-linkiesta.it##.banner-top2
-linkiesta.it##.lkadv
-linkiesta.it###adwallpaper
-linkiesta.it###bh_flexible
-linkiesta.it###admputop2
-linkiesta.it###container
 
-! Blocca popup subscriber
-linkiesta.it##.popover.subscriber
-
-! Forza rimozione padding (potrebbe non funzionare in ABP)
-linkiesta.it##body:style(padding-top: 0px !important)
+! Blocca popup Linkiesta
+linkiesta.it##div.popover.subscriber
+linkiesta.it##div[id="popover"].animate__animated.animate__slideInUp.popover.subscriber
