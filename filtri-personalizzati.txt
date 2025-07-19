@@ -7,3 +7,10 @@
 ! Blocca popup Linkiesta
 linkiesta.it##div.popover.subscriber
 linkiesta.it##div[id="popover"].animate__animated.animate__slideInUp.popover.subscriber
+
+! Filtro alternativo per banner Linkiesta
+linkiesta.it##.banner-top:remove()
+linkiesta.it##.lkadv:remove()
+linkiesta.it###adwallpaper:remove()
+linkiesta.it###bh_flexible:remove()
+linkiesta.it##body:style(padding-top: 0px !important)
