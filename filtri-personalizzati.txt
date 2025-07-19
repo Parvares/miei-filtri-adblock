@@ -14,5 +14,5 @@ linkiesta.it##.lkadv
 linkiesta.it###adwallpaper
 linkiesta.it###bh_flexible
 
-! Rimuove padding del body (sintassi ABP)
-linkiesta.it##body:style(padding-top: 0px !important)
+! Rimuove padding del body (sintassi ABP alternativa)
+linkiesta.it##body[style*="padding-top"]:style(padding-top: 0px !important)
